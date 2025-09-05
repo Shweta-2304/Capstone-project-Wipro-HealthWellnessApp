@@ -45,9 +45,9 @@ The system provides:
 
  ## Backend (Spring Boot in Eclipse)
 
-cd backend
-mvn clean install
-mvn spring-boot:run
+```cd backend```
+```mvn clean install```
+```mvn spring-boot:run```
 
 * Runs on: http://localhost:8080
 
