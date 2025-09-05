@@ -45,17 +45,20 @@ The system provides:
 
  ## Backend (Spring Boot in Eclipse)
 
-```cd backend```
-```mvn clean install```
-```mvn spring-boot:run```
+```
+cd backend
+mvn clean install
+mvn spring-boot:run
+```
 
 * Runs on: http://localhost:8080
 
  ## Frontend (React.js in VS Code)
-
+```
 cd frontend
 npm install
 npm start
+```
 
  * Runs on: http://localhost:3000 
 
@@ -73,7 +76,7 @@ Authorization: Bearer <your_jwt_token>
 * Create a database:
 
 
-CREATE DATABASE healthcare_wellness;
+```CREATE DATABASE healthcare_db```
 
 * Update application.properties or application.yml in the backend project:
 
